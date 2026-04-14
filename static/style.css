@@ -1,0 +1,33 @@
+body {
+    font-family: Arial;
+    background: #020617;
+    color: white;
+    text-align: center;
+}
+
+.container {
+    margin-top: 60px;
+}
+
+input {
+    padding: 12px;
+    width: 300px;
+    border-radius: 6px;
+    border: none;
+}
+
+.strength-bar {
+    width: 300px;
+    height: 10px;
+    background: #334155;
+    margin: 10px auto;
+    border-radius: 5px;
+}
+
+#bar {
+    height: 100%;
+    width: 0%;
+    background: red;
+    border-radius: 5px;
+    transition: 0.3s;
+}

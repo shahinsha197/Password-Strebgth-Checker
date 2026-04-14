@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Password Strength Checker</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+
+<div class="container">
+    <h1>Password Strength Checker</h1>
+
+    <input type="password" id="password" placeholder="Enter password" oninput="checkPassword()">
+
+    <div class="strength-bar">
+        <div id="bar"></div>
+    </div>
+
+    <p id="strength-text"></p>
+    <p id="entropy"></p>
+
+    <ul id="feedback"></ul>
+</div>
+
+<script src="/static/script.js"></script>
+</body>
+</html>
